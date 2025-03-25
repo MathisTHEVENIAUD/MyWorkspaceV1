@@ -1,4 +1,4 @@
-let apiKey = "cc02c10e5e16a66c6a4823b4";
+let apiKey = "mykey";
 
 currencies = [
     "AED",
