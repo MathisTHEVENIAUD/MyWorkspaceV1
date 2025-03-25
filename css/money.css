@@ -1,0 +1,54 @@
+#wrapper {
+    text-align: center;
+    background-color: #8B8B8B;
+    padding: 2%;  
+    border-radius: 2em;
+}
+
+#header-text {
+    padding: 5%;
+}
+
+#amount {
+    text-align: center;
+    background-color: #8B8B8B;
+    border: 3px solid black;
+    color:white;
+}
+
+#dropdowns {
+    padding-bottom: 5%;
+    background-color: #8B8B8B;
+    border: none;
+    color:white;
+}
+
+#result {
+    margin-top: 5%;
+    color: white;
+    border: 3px solid black;
+}
+
+#convert-button {
+    border: none;
+    background-color: white;
+}
+
+#convert-button:hover {
+    background-color: #dedede;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+    #amount {
+        width: 100%;
+    }
+    #tobutton {
+        margin-left: 25px;
+    }
+}
