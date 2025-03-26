@@ -58,7 +58,8 @@ body {
     }
 
     .button {
-        width: 80vw;  /* Ajuste la largeur pour s'adapter à l'écran */
+        width: 80vw;
         height: 20vh;
+        font-size: 3em;
     }
 }
